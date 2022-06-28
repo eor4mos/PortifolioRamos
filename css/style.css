@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.azul{
+    background-color: #121926;
+}
+
+.fundo1{
+    position: absolute;
+    height: 342px;
+    width:436px;
+}
+
+.fundo2{
+    position: absolute;
+    height: 422.1px;
+    width: 399.98px;
+    top: 0;
+    left: 0;
+    margin-top: 1500px;
+}
+
+.fundo3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2050px;
+}
+
+.fundo4{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 2400px;
+}
+
+.fundo5{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2944px;
+    z-index: -1;
+}
+
+.fundo6{
+    position: absolute;
+    left: 0%;
+    top: 0;
+    margin-top: 3268px;
+}
+
+.branco{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.link__cabeçalho{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 128px;
+}
+
+article{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.hero__article{
+    position: absolute;
+    text-align: right;
+    color: white;
+    justify-content: right;
+    margin: 140px 128px 0 658px;
+}
+
+h1::before{
+    content: url(../assets/elipse.png);
+    display: block;
+    position: absolute;
+    top: -50%;
+    right: -19%;
+}
+
+h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+strong{
+    font-weight: 900;
+    color: #00D1FF;
+}
+
+.paragrafo__hero{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    width: 580px;
+}
+
+.img1{
+    margin: 124px 0 146px 128px;
+}
+
+
+h4{
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.article__apresentação{
+    margin: 150px 0 128px 128px;
+}
+
+.article__apresentação h4{
+    color: #162440;
+    font-size: 32px;
+    width: 555px;
+}
+
+.article__apresentação p{
+    color: #0A0F1B;
+    margin: 21px 0;
+    width: 639px;
+}
+
+.terceira{
+    background-color: #121926;
+    display: flex;
+    justify-content:center;
+}
+
+.quadros{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 170px 0 0 128px;
+    width: 433px;
+    height: 425.5px;
+}
+
+.quadroimg{
+    margin-left: 15px;
+    margin-bottom: 24px;
+}
+
+.quadroimg2{
+    margin-left: 15px;
+}
+
+.article__socialmedia{
+    background-color: #121926;
+    width: 545px;
+    margin: 132px auto;
+}
+
+.article__socialmedia h4{
+    margin-bottom: 30px;
+}
+
+.article__apresentação p{
+    margin-bottom: 32px;
+}
+
+.article__socialmedia p{
+    margin-bottom: 24px;
+}
+
+.itens__socialmedia{
+    font-size: 20px;
+}
+
+.botao{
+    background-color: #00D1FF;
+    font-family: 'Poppins';
+    display: block;
+    border-radius: 32px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    width: 170px;
+    margin-top: 32px;
+    padding: 4px 13px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.design__grafico{
+    display: flex;
+    justify-content: space-between;
+    margin: 145px 128px;
+}
+
+.design__grafico p{
+    margin-top: 25px;
+    width: 540px;
+}
+
+.design__grafico h4{
+    margin-top: 20px;
+    color: #162440;
+}
+
+.article__design{
+    color: #0A0F1B;
+}
+
+.design__interfaces{
+    background-color: #121926;
+    display: flex;
+    justify-content: space-between;
+    padding: 132px 128px;
+}
+
+.article_interfaces p{
+    width: 540px;
+    margin-top: 30px;
+}
+
+.rodape{
+    font-family: 'Poppins';
+    background-color: #121926;
+    color: white;
+}
+
+.topo{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 556px;
+}
+
+.topo::after{
+    content: url(../assets/Arrow\ 3.png);
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.rodape .topo::before{
+    content: "";
+    position: absolute;
+    width: 1108px;
+    height: 1px;
+    background-color: white;
+    margin-top: 60px;
+    left: 0%;
+    margin-left: 129px;
+}
+
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 129px;
+}
+
+.contato::before{
+    content: url(../assets/whatsapp.png);
+    position: absolute;
+    margin-top: 2px;
+    left:0 ;
+    margin-left: 325px;
+}
+
+.instagram::before{
+    content: url(../assets/instagram\ 2.png);
+    position: absolute;
+    margin-top: 2px;
+    left: 0;
+    margin-left: 655px;
+}
+
+.email::before{
+    content: url(../assets/email.png);
+    position: absolute;
+    margin-top: 4px;
+    left: 0;
+    margin-left: 916px;
+}
